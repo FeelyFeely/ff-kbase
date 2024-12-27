@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4d5395d81f01da45e36091495a773886",
+    "content-hash": "7a8b5b287d9e1169f731be4939f0aafb",
     "packages": [
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -9299,29 +9299,23 @@
         },
         {
             "name": "uvdesk/automation-bundle",
-            "version": "dev-master",
+            "version": "v1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/uvdesk/automation-bundle.git",
-                "reference": "1ec2b22d9b92f1611768511595ae549f7db8185d"
+                "reference": "65ba99f427d1d3df41af03edf22dd9989f4ecf74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/uvdesk/automation-bundle/zipball/1ec2b22d9b92f1611768511595ae549f7db8185d",
-                "reference": "1ec2b22d9b92f1611768511595ae549f7db8185d",
+                "url": "https://api.github.com/repos/uvdesk/automation-bundle/zipball/65ba99f427d1d3df41af03edf22dd9989f4ecf74",
+                "reference": "65ba99f427d1d3df41af03edf22dd9989f4ecf74",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.2.5 || ^8.0",
-                "uvdesk/core-framework": "^1.2"
+                "uvdesk/core-framework": "^1.1.3"
             },
-            "default-branch": true,
             "type": "symfony-bundle",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.2.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Webkul\\UVDesk\\AutomationBundle\\": ""
@@ -9337,25 +9331,25 @@
                     "email": "support@uvdesk.com"
                 }
             ],
-            "description": "UVDesk Community Helpdesk Automations Bundle",
+            "description": "UVDesk Community Help desk Automation Bundle",
             "support": {
                 "issues": "https://github.com/uvdesk/automation-bundle/issues",
-                "source": "https://github.com/uvdesk/automation-bundle/tree/master"
+                "source": "https://github.com/uvdesk/automation-bundle/tree/v1.1.3"
             },
-            "time": "2024-11-27T06:54:48+00:00"
+            "time": "2024-12-19T08:29:37+00:00"
         },
         {
             "name": "uvdesk/core-framework",
-            "version": "dev-master",
+            "version": "v1.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/uvdesk/core-framework.git",
-                "reference": "f4db57f73c0aa8e02197806475a16c01fff820c3"
+                "reference": "ba4d561e4831358ad0a8ad34e7f6a0d5e6e2da01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/uvdesk/core-framework/zipball/f4db57f73c0aa8e02197806475a16c01fff820c3",
-                "reference": "f4db57f73c0aa8e02197806475a16c01fff820c3",
+                "url": "https://api.github.com/repos/uvdesk/core-framework/zipball/ba4d561e4831358ad0a8ad34e7f6a0d5e6e2da01",
+                "reference": "ba4d561e4831358ad0a8ad34e7f6a0d5e6e2da01",
                 "shasum": ""
             },
             "require": {
@@ -9369,13 +9363,7 @@
                 "uvdesk/automation-bundle": "Automate operations within your UVDesk Community Helpdesk System based on pre-defined events triggered from your application",
                 "uvdesk/support-center-bundle": "Provide your customers with convenience by introducing the Support Center Portal to your UVDesk Community Helpdesk System"
             },
-            "default-branch": true,
             "type": "symfony-bundle",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.2.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Webkul\\UVDesk\\CoreFrameworkBundle\\": ""
@@ -9394,35 +9382,29 @@
             "description": "UVDesk Community Helpdesk Core Framework Bundle",
             "support": {
                 "issues": "https://github.com/uvdesk/core-framework/issues",
-                "source": "https://github.com/uvdesk/core-framework/tree/master"
+                "source": "https://github.com/uvdesk/core-framework/tree/v1.1.6"
             },
-            "time": "2024-11-27T06:29:54+00:00"
+            "time": "2024-12-23T13:17:01+00:00"
         },
         {
             "name": "uvdesk/extension-framework",
-            "version": "dev-master",
+            "version": "v1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/uvdesk/extension-framework.git",
-                "reference": "18b9d0f8e588aeb39361dddfe5b057627d0bd4a8"
+                "reference": "7fc4b0bf225b606c1679d9a51b579733a8494685"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/uvdesk/extension-framework/zipball/18b9d0f8e588aeb39361dddfe5b057627d0bd4a8",
-                "reference": "18b9d0f8e588aeb39361dddfe5b057627d0bd4a8",
+                "url": "https://api.github.com/repos/uvdesk/extension-framework/zipball/7fc4b0bf225b606c1679d9a51b579733a8494685",
+                "reference": "7fc4b0bf225b606c1679d9a51b579733a8494685",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.2.5 || ^8.0",
-                "uvdesk/core-framework": "^1.2"
+                "uvdesk/core-framework": "^1.1"
             },
-            "default-branch": true,
             "type": "symfony-bundle",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.2.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Webkul\\UVDesk\\ExtensionFrameworkBundle\\": ""
@@ -9441,37 +9423,31 @@
             "description": "UVDesk Community Helpdesk Extension Framework Bundle",
             "support": {
                 "issues": "https://github.com/uvdesk/extension-framework/issues",
-                "source": "https://github.com/uvdesk/extension-framework/tree/master"
+                "source": "https://github.com/uvdesk/extension-framework/tree/v1.1.2"
             },
-            "time": "2024-11-27T07:04:04+00:00"
+            "time": "2024-12-18T12:48:24+00:00"
         },
         {
             "name": "uvdesk/mailbox-component",
-            "version": "dev-master",
+            "version": "v1.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/uvdesk/mailbox-component.git",
-                "reference": "cd58008476792f47d4c3c00df9880d6f37f989c5"
+                "reference": "ad6cfee1764e4fa081663fc60879ed63efc1544e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/uvdesk/mailbox-component/zipball/cd58008476792f47d4c3c00df9880d6f37f989c5",
-                "reference": "cd58008476792f47d4c3c00df9880d6f37f989c5",
+                "url": "https://api.github.com/repos/uvdesk/mailbox-component/zipball/ad6cfee1764e4fa081663fc60879ed63efc1544e",
+                "reference": "ad6cfee1764e4fa081663fc60879ed63efc1544e",
                 "shasum": ""
             },
             "require": {
                 "iamcal/lib_autolink": "^1.7",
                 "php": "^7.2.5 || ^8.0",
                 "php-mime-mail-parser/php-mime-mail-parser": "^7.0.0",
-                "uvdesk/core-framework": "^1.2"
+                "uvdesk/core-framework": "^1.1"
             },
-            "default-branch": true,
             "type": "symfony-bundle",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.2.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Webkul\\UVDesk\\MailboxBundle\\": ""
@@ -9490,35 +9466,29 @@
             "description": "The Mailbox component provides tools that allows your helpdesk to process tickets from multiple email sources.",
             "support": {
                 "issues": "https://github.com/uvdesk/mailbox-component/issues",
-                "source": "https://github.com/uvdesk/mailbox-component/tree/master"
+                "source": "https://github.com/uvdesk/mailbox-component/tree/v1.1.4"
             },
-            "time": "2024-11-27T06:45:09+00:00"
+            "time": "2024-12-19T12:43:38+00:00"
         },
         {
             "name": "uvdesk/support-center-bundle",
-            "version": "dev-master",
+            "version": "v1.1.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/uvdesk/support-center-bundle.git",
-                "reference": "9cff586184a2bd67cec0198c9a627d12da48f4b6"
+                "reference": "1089ba789a9be46df5d4f257a7f53707715489d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/uvdesk/support-center-bundle/zipball/9cff586184a2bd67cec0198c9a627d12da48f4b6",
-                "reference": "9cff586184a2bd67cec0198c9a627d12da48f4b6",
+                "url": "https://api.github.com/repos/uvdesk/support-center-bundle/zipball/1089ba789a9be46df5d4f257a7f53707715489d6",
+                "reference": "1089ba789a9be46df5d4f257a7f53707715489d6",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.2.5 || ^8.0",
-                "uvdesk/core-framework": "^1.2"
+                "uvdesk/core-framework": "^1.1.5"
             },
-            "default-branch": true,
             "type": "symfony-bundle",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.2.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Webkul\\UVDesk\\SupportCenterBundle\\": ""
@@ -9537,9 +9507,9 @@
             "description": "UVDesk Community Helpdesk Customer Support Center Bundle",
             "support": {
                 "issues": "https://github.com/uvdesk/support-center-bundle/issues",
-                "source": "https://github.com/uvdesk/support-center-bundle/tree/master"
+                "source": "https://github.com/uvdesk/support-center-bundle/tree/v1.1.3.2"
             },
-            "time": "2024-11-27T06:37:39+00:00"
+            "time": "2024-12-20T10:43:22+00:00"
         },
         {
             "name": "voku/portable-ascii",
@@ -11894,21 +11864,18 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "dev",
-    "stability-flags": {
-        "uvdesk/automation-bundle": 20,
-        "uvdesk/core-framework": 20,
-        "uvdesk/extension-framework": 20,
-        "uvdesk/mailbox-component": 20,
-        "uvdesk/support-center-bundle": 20
-    },
+    "minimum-stability": "stable",
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.2.5 || ^8.0",
+        "php": "^8.0",
         "ext-ctype": "*",
         "ext-iconv": "*"
     },
     "platform-dev": {},
+    "platform-overrides": {
+        "php": "8.0"
+    },
     "plugin-api-version": "2.6.0"
 }
