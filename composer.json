@@ -3,10 +3,9 @@
     "description": "UVDesk Community Helpdesk Project Skeleton",
     "type": "project",
     "license": "MIT",
-    "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": "^7.2.5 || ^8.0",
+        "php": "^8.0",
         "ext-ctype": "*",
         "ext-iconv": "*",
         "doctrine/annotations": "^1.0",
@@ -49,11 +48,11 @@
         "symfony/yaml": "^5.4",
         "twig/extra-bundle": "^2.12|^3.0",
         "twig/twig": "^2.12|^3.0",
-        "uvdesk/automation-bundle": "dev-master",
-        "uvdesk/core-framework": "dev-master",
-        "uvdesk/extension-framework": "dev-master",
-        "uvdesk/mailbox-component": "dev-master",
-        "uvdesk/support-center-bundle": "dev-master"
+        "uvdesk/automation-bundle": "^1.1",
+        "uvdesk/core-framework": "^1.1",
+        "uvdesk/extension-framework": "^1.1",
+        "uvdesk/mailbox-component": "^1.1",
+        "uvdesk/support-center-bundle": "^1.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5",
@@ -66,6 +65,9 @@
         "symfony/web-profiler-bundle": "^5.4"
     },
     "config": {
+        "platform": {
+            "php": "8.0"
+        },
         "allow-plugins": {
             "composer/package-versions-deprecated": true,
             "symfony/flex": true,
@@ -108,9 +110,6 @@
         "symfony/symfony": "*"
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "1.2.x-dev"
-        },
         "symfony": {
             "allow-contrib": false,
             "endpoint": [
